@@ -1,0 +1,193 @@
+#game {
+    width: 700px;
+    height: 700px;
+    border: 0px;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-container {
+    top: -120px ;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    margin: 8px;
+    opacity: 0.7;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid lime;
+}
+
+.menu {
+    background: linen;
+    width: 700px;
+    height: 680px;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    font-family: Molot;
+    font-size: 60px;
+    color: darkorange;
+    border: 7px dashed grey;
+    margin: 0px;
+}
+
+.menu-mobile {
+    background: linen;
+    width: 700px;
+    height: 780px;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    font-family: Molot;
+    font-size: 60px;
+    color: darkorange;
+    border: 7px dashed grey;
+    margin: 0px;
+}
+
+.level {
+    background: pink;
+    width: 500px;
+    height: 100px;
+    margin: 5px;
+    border: 5px solid;
+    opacity: 0.8;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    font-size: 50px;
+    color: black;
+    font-family: Molot;
+    border-radius: 30px;
+}
+
+.Version-PK {
+    background: pink;
+    width: 500px;
+    height: 100px;
+    margin: 5px;
+    border: 5px solid;
+    opacity: 0.8;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    font-size: 50px;
+    color: black;
+    font-family: Molot;
+    border-radius: 30px;
+}
+
+.mobile-version {
+    background: pink;
+    width: 500px;
+    height: 150px;
+    margin: 5px;
+    border: 5px solid;
+    opacity: 0.8;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    font-size: 55px;
+    color: black;
+    font-family: Molot;
+    border-radius: 30px;
+}
+
+.created-by {
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    font-size: 30px;
+    color: darkorange;
+    font-family: Molot;
+}
+
+.levels {
+    background: linen;
+    width: 520px;
+    height: 890px;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    font-family: Molot;
+    font-size: 60px;
+    color: darkorange;
+    border: 7px dashed grey;
+    margin: 8px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons button {
+    display: block;
+    background: pink;
+    width: 500px;
+    margin: 10px;
+    border: 5px solid;
+    opacity: 0.8;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    font-size: 50px;
+    color: black;
+    font-family: Molot;
+    border-radius: 30px;
+}
+
+.levelh {
+    height: 100px;
+}
+
+.level-boss {
+    height: 145px;
+}
+
+#back {
+    position: relative;
+    display: block;
+    background: pink;
+    width: 300px;
+    height: 100px;
+    margin: 10px;
+    border: 5px solid ;
+    opacity: 0.8;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    font-size: 40px;
+    color: darkorange;
+    font-family: Molot;
+    border-radius: 30px;
+}
+
+.disable {
+    background-color: gray!important;
+    color: red!important;
+    border: 5px solid red!important;
+    cursor: not-allowed;
+}

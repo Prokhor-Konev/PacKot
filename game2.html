@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Packot mobile</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <canvas id="game" width="700" height="700"></canvas>
+        <div class="button-container">
+            <div class="left-container">
+
+                <button onclick="control({keyCode: 65})" class="button left"> LEFT</button>
+                <button onclick="control({keyCode: 68})" class="button right"> RIGHT</button>
+            </div>
+            <div class="right-container">
+                <button onclick="control({keyCode: 87})" class="button up"> UP</button>
+                <button onclick="control({keyCode: 83})" class="button down"> DOWN</button>
+            </div>
+        </div>
+    </div>
+    <script src="levels.js"></script>
+    <script src="scripts2.js"></script>
+</body>
+
+</html>
